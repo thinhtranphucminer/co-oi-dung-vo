@@ -1,4 +1,16 @@
-.fi {
+.f1 {
   color: red;
-  
+  margin-top: 18pt;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+}
+.f2 {
+  color: red;
+  margin-top: 9pt;
+  margin-bottom: 6px;
+  font-size: 10px;
+  font-weight: normal;
+  font-family: Arial;
 }
