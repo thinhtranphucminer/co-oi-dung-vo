@@ -27,12 +27,22 @@
   background-color: lightgray;
 }
 .menu{
-  flex: 5%;
-  background-color: gray;
+  flex: 5%
+  background-color: lightblue;
+}
+.menu a{
+  padding: 15px 20px;
+  color: black;
+}
+.menu hover{
+  background-color: drakblue;
+  color: white;
 }
 .content{
-  flex: 70%;
-  background-color: white;
+  flex: 70%
+.content iframe{
+  flex: 1;
+  border: none;
 }
 .footer{
   flex: 10%;
