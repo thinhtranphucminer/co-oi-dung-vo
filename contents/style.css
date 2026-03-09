@@ -24,11 +24,11 @@
 }
 .header{
   flex: 15%;
-  background-color: lightgray;
+  background-color: yellow;
 }
 .menu{
   flex: 5%
-  background-color: lightblue;
+  background-color: blue;
   color: white;
   display: flex;
 }
