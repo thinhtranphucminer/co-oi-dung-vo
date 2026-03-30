@@ -27,7 +27,7 @@
   background-color: yellow;
 }
 .menu{
-  flex: 5%
+  flex: 5%;
   background-color: blue;
   color: white;
   display: flex;
@@ -41,7 +41,7 @@
   color: pink;
 }
 .content{
-  flex: 70%
+  flex: 70%;
     background-color: white;
 }
 .content iframe{
