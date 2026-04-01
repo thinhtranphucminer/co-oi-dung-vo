@@ -8,17 +8,17 @@
 
 <h2>Đóng góp ý kiến cho thư viện của nhà trường</h2>
 
-<form>
+<form onsubmit="hienThongBao(event)">
 
 <!-- NHIỆM VỤ 1 -->
 <h3>1. Thông tin về người góp ý</h3>
 
 Họ và tên:
-<input type="text" name="txtTen">
+<input type="text" id="ten">
 <br><br>
 
 Địa chỉ email:
-<input type="text" name="txtEmail">
+<input type="text">
 <br><br>
 
 <!-- NHIỆM VỤ 2 -->
@@ -40,7 +40,7 @@ Bạn quan tâm đến:
 <h3>3. Đóng góp ý kiến</h3>
 
 Ý kiến đóng góp:<br>
-<textarea rows="5" cols="40"></textarea>
+<textarea id="ykien" rows="5" cols="40"></textarea>
 
 <br><br>
 
@@ -49,9 +49,8 @@ Bạn quan tâm đến:
 
 </form>
     
-    <hr>
+<hr>
 
-<!-- HIỂN THỊ KẾT QUẢ -->
 <div id="ketqua"></div>
 
 <script>
