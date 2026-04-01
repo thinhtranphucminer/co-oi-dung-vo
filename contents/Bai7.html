@@ -48,6 +48,25 @@ Bạn quan tâm đến:
 <input type="reset" value="Hủy">
 
 </form>
+    
+    <hr>
+
+<!-- Nơi hiển thị kết quả -->
+<div id="ketqua"></div>
+
+<script>
+function hienThongBao(event) {
+    event.preventDefault(); // không reload trang
+
+    let ten = document.getElementById("ten").value;
+    let ykien = document.getElementById("ykien").value;
+
+    document.getElementById("ketqua").innerHTML =
+        "<h3>Cảm ơn " + ten + "!</h3>" +
+        "<p>Ý kiến góp của bạn như sau:</p>" +
+        "<b>" + ykien + "</b>";
+}
+</script>
 
 </body>
 </html>
